@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <!-- All CSS Files -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css"/>
+    <link rel="stylesheet" type="text/css" href="custom/css/style.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Alef:400,700' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+    
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="brand" href="#section1">Nivedita Muthusubramanian</a>
+                <ul class="nav">
+                    <li><a href="#section1">Home</a></li>
+                    <li><a href="#section2">About</a></li>
+                    <li><a href="#section3">Projects</a></li>
+                    <li><a href="#section4">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Section 1 -->
+    
+    <div class="section1" id="section1">
+        <div class="container">
+            <div class="row">
+               
+                
+                <div class="span4">
+                    <div class="image">
+                         <img class="img-circle" src="custom/img/img.jpg"/>
+                    </div>
+       </div>
+ 
+ <div class="span8">
+                    <div class="intro">
+                       <h1> Hello! </h1> 
+                          <h2> a bit about me</h2>
+                        <ul class="link inline">
+                            <li>
+                             <div class="btn-circle pink"><a href="#section2"> RESUME</a> </div> 
+                            </li>
+			    <li>
+                             <div class="btn-circle blue"><a href="#section2">PROJECTS</a> </div>
+                            </li>
+				<li>
+                             <div class="btn-circle green"><a href="#section2">PROJECTS</a> </div>
+                            </li>
+                        </ul>
+                         
+                    </div>
+                </div>
+                </div>
+            </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.knob.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>

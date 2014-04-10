@@ -1,0 +1,65 @@
+body 
+{
+
+
+font-size: 16px;
+line-height: 180%;
+color :#000000;
+font-family: 'Alef', sans-serif;
+}
+html
+{
+position: relative;
+height : 100%;
+}
+h1 , h3 , h6,h4
+{
+color : #000000;
+}
+#section1
+{
+margin-top: 50px;
+}
+a
+{
+color: #FFA500;
+}
+.outer
+{
+position : relative;
+overflow:scroll;
+}
+.navbar-inverse .navbar-inner {
+background-color: #ffffff; !important
+border-color: #E7E7E7;
+background: black;
+height:100px;
+        }
+
+img
+{
+height:300px;
+width:100%;
+-webkit-transform: scale(1,1);
+-webkit-transition-timing-function: ease-out;
+-webkit-transition-duration: 50ms;
+-moz-transform: scale(1,1);
+-moz-transition-timing-function: ease-out;
+-moz-transition-duration: 50ms;
+}
+img:hover
+{
+-webkit-transform: scale(1.03,1.05);
+-webkit-transition-timing-function: ease-out;
+-webkit-transition-duration: 50ms;
+-moz-transform: scale(1.03,1.05);
+-moz-transition-timing-function: ease-out;
+-moz-transition-duration: 50ms;
+position: relative;
+z-index: 99;
+}
+.right
+{
+float:right;
+}
+

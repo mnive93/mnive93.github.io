@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- All CSS Files -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css"/>
+    <link rel="stylesheet" type="text/css" href="custom/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css"/>
+<link href='http://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css'>
+<title> Nivedita Muthusubramanian </title>
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+
+</head>
+
+<body>
+    <div id="bg">
+    
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <ul class="nav">
+<li><a class="brand" href="index.html">Nivedita Muthusubramanian</a></li>
+                                
+    <li><a href="index.html">HOME</a></li>
+                    <li><a href="resume.html">RESUME</a></li>
+                    <li><a href="project.html">PROJECTS</a></li>
+                    
+                  
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Section 1 -->
+    
+    	   <div class="section2-start"></div>
+    
+    <div class="project" id="section2">
+        <div class="container">
+            <div class="row">
+    <div class="span7">
+<h1 class="brand"> PROJECTS</h1><br/>
+<!---START--->
+<div class="container">
+            <div class="row">
+<div class="span4"><img src="images/tripmite.png" class="img-rounded"/>
+</div>
+<div class="span5">
+<dl>
+<dt class="btn-smallcircle green"><i class="fa fa-globe fa-3x"> </i>  </dt> </dl>
+<hr width="300px">
+<h4 > Tripmite</h4>
+<p> Tripmite a very cool android app which can be a perfect Traveller's Guardian.Are you a frequent traveller ?Do you doze off and miss your stop?Well not to worry because Tripmite is all you need which will wake you up when you reach that destination. The app also sends a text to your close ones also ensuring your safety.And its up for downloads! <a href="https://play.google.com/store/apps/details?id=com.tripmite.app&hl=en">Check it out </a></p>
+</div>
+</div>
+</div>
+<!---END--->
+<!---START--->
+<div class="container">
+            <div class="row">
+<div class="span4"><img src="images/elearning.jpg" class="img-rounded"/>
+</div>
+<div class="span5">
+<dl>
+<dt class="btn-smallcircle green "><i class="fa fa-book fa-3x"> </i>  </dt> </dl>
+<hr width="300px">
+<h4> Shikshya E-Learning Portal </h4>
+<p> E-Learning Portal just for you!I did a prototype of an E-Learning Portal in ASP.NET using Microsoft Visual Studio 2010.For backend I used Microsoft SQL Server 2008 .The student has a personalized dashboard and if he has any doubts regarding the course he can send a query to the respective faculty. Separate dahboards are available for the faculty and he can reply to the queries very easily.After the end of course,the student is asked to take up a test.Check out my Github profile !!   </p>
+</div>
+</div>
+</div>
+<!---END--->
+<!---START--->
+<div class="container">
+            <div class="row">
+<div class="span4"><img src="images/food.jpg" class="img-rounded"/>
+</div>
+<div class="span5">
+<dl>
+<dt class="btn-smallcircle green "><i class="fa fa-cutlery fa-3x"> </i>  </dt> </dl>
+<hr width="300px">
+<h4> Online Food Portal </h4>
+<p> I did a prototype of Food Portal using Java in Netbeans and MYSQL for backend. The portal displays the list resturants depending on user's location and cuisine. The user can view the details of the restuarant , I also integrated Google Maps into this application which provides a static image of the restuarant's location and the user's current location.  </p>
+</div>
+</div>
+</div>
+<!---END--->
+
+
+</div>
+</div>
+</div>    
+</div>
+ <div id="footer">
+
+            <div class="left">
+<p class="bluecolor">Nivedita Muthusubramanian &copy; 2013</p>
+          
+              
+                <ul class="link inline" >  
+                
+     <li ><a href="https://github.com/mnive93" class ="bgcolor pad" target="_blank"><i class="fa fa-github fa-3x"></i></a> </li>
+            <li class="pad"><a href="https://www.facebook.com/nivedita.muthusubramanian" class ="bgcolor pad" target="_blank"> <i class="fa fa-facebook fa-3x"></i></a></li>
+                <li class="pad"><a href="https://twitter.com/mnive93" class ="bgcolor pad" target="_blank"><i class="fa fa-twitter fa-3x"></i></a>
+                
+            </ul>
+            </div>
+  </div>
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+</div>
+</body>
+</html>
