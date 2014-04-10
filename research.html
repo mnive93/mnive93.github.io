@@ -137,7 +137,7 @@ var slidetime = 8000; // milliseconds between automatic transitions
 $(document).ready(function() {	
 
   // Comment out this line to disable auto-play
-	intervalID = setInterval(cycleImage, slidetime);
+	//intervalID = setInterval(cycleImage, slidetime);
 
 	$(".main_image .desc").show(); // Show Banner
 	$(".main_image .block").animate({ opacity: 0.85 }, 1 ); // Set Opacity
@@ -177,8 +177,7 @@ $(document).ready(function() {
 		$("a.collapse").toggleClass("show");
 	});
 	
-	// Function to autoplay cycling of images
-	// Source: http://stackoverflow.com/a/9259171/477958
+	
 	function cycleImage(){
     var onLastLi = $(".image_thumb ul li:last").hasClass("active");       
     var currentImage = $(".image_thumb ul li.active");
@@ -208,12 +207,12 @@ $(document).ready(function() {
 });
 </script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script src="js/isotope.js"></script>
+   
     <script src="js/bootstrap.js"></script>
     <script src="js/jquery.scrollTo.js"></script>
     <script src="js/jquery.nav.js"></script>
     <script src="js/jquery.knob.js"></script>
-    <script src="js/custom.js"></script>
+ 
    </div>
 </body>
 </html>
