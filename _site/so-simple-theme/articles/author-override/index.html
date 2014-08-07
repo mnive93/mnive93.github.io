@@ -1,0 +1,11 @@
+<p>For those of you who may have content written by multiple authors on your site, here’s a new feature I added to So Simple.</p>
+
+<p>Traditionally you would assign a global author for the entire site and those attributes would be used in all post bylines, social networking links in the footer, Twitter Cards, and Google Authorship. These <code>owner</code> variables still work the same way when set in your <code>config.yml</code>, but now if you add an author variable to a post’s YAML front matter, you can override a post’s author byline.</p>
+
+<p>Let’s say we have an author Billy Rick — he wrote this post and we want his name and photo to appear on the page instead of whoever the default site author is. To do so we’d add the following YAML front matter.</p>
+
+<div class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="l-Scalar-Plain">author</span><span class="p-Indicator">:</span>
+  <span class="l-Scalar-Plain">name</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">Billy Rick</span>
+  <span class="l-Scalar-Plain">avatar</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">billy-photo.jpg</span>    <span class="c1">#place in /images</span>
+  <span class="l-Scalar-Plain">twitter</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">billyrick</span>         <span class="c1">#marked as a creator for Twitter Card links</span></code></pre></div>
+

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+  <url>
+    <loc>http://localhost:4000/so-simple-theme/articles/author-override/</loc>
+    <lastmod>2014-06-19T00:00:00+05:30</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/so-simple-theme/articles/code-highlighting-post/</loc>
+    <lastmod>2013-08-16T00:00:00+05:30</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/so-simple-theme/articles/sample-link-post/</loc>
+    <lastmod>2013-08-12T00:00:00+05:30</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/so-simple-theme/articles/video-post/</loc>
+    <lastmod>2013-06-25T00:00:00+05:30</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/so-simple-theme/articles/readability-feature-post/</loc>
+    <lastmod>2013-05-23T00:00:00+05:30</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/so-simple-theme/articles/sample-post-images/</loc>
+    <lastmod>2013-05-22T00:00:00+05:30</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/so-simple-theme/articles/readability-post/</loc>
+    <lastmod>2012-05-22T00:00:00+05:30</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/so-simple-theme/articles/sample-post/</loc>
+    <lastmod>2011-03-10T00:00:00+05:30</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://localhost:4000/about/</loc>
+    <lastmod>2014-08-05T19:35:38+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/articles/</loc>
+    <lastmod>2014-08-05T19:35:38+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/so-simple-theme/</loc>
+    <lastmod>2014-08-05T19:35:38+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/tags/</loc>
+    <lastmod>2014-08-05T19:35:38+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/theme-setup/</loc>
+    <lastmod>2014-08-05T19:35:38+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://localhost:4000/certificate.html</loc>
+    <lastmod>2014-07-19T01:23:50Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/index.html</loc>
+    <lastmod>2014-07-19T01:23:50Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/project.html</loc>
+    <lastmod>2014-07-19T01:23:50Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/research.html</loc>
+    <lastmod>2014-07-19T01:23:50Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/resume-download.html</loc>
+    <lastmod>2014-07-19T01:23:50Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/resume.html</loc>
+    <lastmod>2014-07-19T01:23:50Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:4000/skills.html</loc>
+    <lastmod>2014-07-19T01:23:50Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>
