@@ -4,6 +4,16 @@ font-family: 'ABeeZee', sans-serif;
     background: #CCCCCC;
 
 }
+#intro
+    {
+		background: url("images/overlay.png"), url("images/bg.jpg");
+		background-size: 200px 200px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
+               
+                overflow-y : hidden;
+	}
 
 
 p{
@@ -83,8 +93,8 @@ padding-left:150px;
 }
 
 .btn-circle {
-    width:120px; 
-    height:120px; 
+    width:100px; 
+    height:100px; 
     border-radius:60px;
      -moz-border-radius: 60px; 
      -webkit-border-radius: 60px; 
@@ -456,6 +466,7 @@ height:350px;
         margin-bottom: 1em;
         color: #ffffff;
         display: block;
+        font-family: 'Source Sans Pro', sans-serif;
        
         
 }
