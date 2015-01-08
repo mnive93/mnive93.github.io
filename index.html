@@ -7,7 +7,7 @@
             <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
             <link rel="stylesheet" type="text/css" href="css/style.css"/>
             <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css"/>
-        <link href='http://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
         <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
         <script src="js/smooth-scroll.js"></script>
         <script>
@@ -26,11 +26,11 @@
         </head>
         <body >
             <div id="intro">
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav class=" navbar navbar-fixed-top">
                     <div class="container">
                         <ul class="nav navbar-nav">
-        <li><a class="brand" href="index.html">Nivedita Muthusubramanian</a></li>
                             <li><a data-scroll href="#">HOME</a></li>
+                            <li><a data-scroll href="#section1">ABOUT</a></li>
                             <li><a data-scroll href="#section2">RESUME</a></li>
                             <li><a data-scroll href="#section3">PROJECTS</a></li>
                             <li><a data-scroll href="#section4">RESEARCH</a></li>
@@ -45,48 +45,59 @@
             <!-- Section 1 --> 
 
 
-            <div class="section1" id="section1">
-                <div class="container">
-                    <div class="row">
-
-
-                        <div class="col-md-4">
-                            <div class="image">
-                                 <img class="img-circle" src="images/img.jpg"/>
-                            </div>
-               </div>
-
-         <div class="col-md-8">
+            <section class="section1" id="sec1">
+             <div class="container">
+                   <div class="row">
+         
                             <div class="intro">
 
-
-                                     <i class="fa fa-quote-left white"></i> 
-                                     <h3> Ollo!! I am a Coder,ML enthusiast,Foodie and Animal Lover.Currently working as an Android Developer in<a class="white" href = "http://www.zoho.com"  target="_blank"> Zoho</a><i class="fa fa-code"></i>   </h3> <i class="fa fa-quote-right white"> </i>
-
-
+                                     <h3> Ollo! I'm Nivedita.<br/> 
+                                    <span> I code for a living. </span>
+                                    </h3> 
+                                         
+	                   <a data-scroll class="arrow" href="#section1"></a>
+				           </div>
+				        </div>
                             </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-    </div>
+                       
+                       
+                 </div>
+                </section>
+  </div>
+            <!--About me -->
+               
+               <section  class="about" id="section1">  
+                   
+                      <div class="container">
+                  <strong> <h2> Hey. </h2> </strong>
+                   <div class="row">
+                          <div class="col-md-4">
+                        
+                            <img class="img-circle"src="images/img.jpg">
+                       </div>
+                       <div class="col-md-8 ">
+                     
+                       <p> I am a Chennai based developer specializing in Android Developement. Currently working as an Android Developer in <a href ="http://www.zoho.com">Zoho</a>.You could always find me reading stuff on Quora ,Prismatic,Hacker News and other tech related news.Love to try out new interesting stuff and like to dig deeper into Machine Learning.I love animals and I am a hardcore foodie  </p>   
+                           </div>
+                       </div>
+                          </div>
+                   </section>
         <!--Resume -->
-     <h2 class="brand" align="center"> Resume </h2>
-
-            <div class="resume" id="section2">
+        
+            <section class="resume" id="section2">
+           
                 <div class="container">
                     <div class="row">
             <div class="col-md-9">
 
-        <hr width="500px">
-
+    
                 <div class="container">
                     <div class="row">
             <div class="col-md-2">
 
         <dl>
         <dt class="btn-circle blue"><i class="fa fa-graduation-cap fa-3x"></i></dt>
-        <dd align="justify"> Qualification </dd>
+        <dd align="justify"> <p class="black pad-10">Qualification</p> </dd>
         </dl>
          </div>
         <div class="col-md-3">
@@ -105,7 +116,7 @@
 
         <dl>
         <dt class="btn-circle blue"><i class="fa fa-cogs fa-3x"></i></dt>
-       <dd align="justify"> Work Experience </dd>
+       <dd align="justify"><p class="black"> Work Experience </p></dd>
         </dl>
          </div>
         <div class="col-md-3">
@@ -132,7 +143,7 @@
 
         <a href="certificate.html"  target="_blank" >
         <dt class="btn-circle blue"><i class="fa fa-certificate fa-3x"></i></dt></a>
-         <dd align="left">Certifications </dd>
+         <dd align="left"><p class="black pad-10">Certifications </p></dd>
         </dl>
          </div>
         <div class="col-md-3">
@@ -176,11 +187,11 @@
         </div>
                      </div>
                 </div>
-            </div>
+            </section>
        <hr width="100%"/>
                 <!-- PROJECTS -->
                   <h2 class="brand" align="center"> Code Stuff  <i class="fa fa-terminal "> </i> </h2> 
-             <div class="project" id="section3">
+             <section class="project" id="section3">
 
           <div class="container">
     <!---START--->
@@ -234,15 +245,14 @@
                 </div>
     <!---END--->
     </div>
-
-    </div>
+</section>                
 
           
             <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
      <script src="js/bootstrap.min.js"></script>
 
-        </div>
+    
 
          </body>
         </html>
