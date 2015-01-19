@@ -6,11 +6,11 @@ body{
 }
 #intro
     {
-		background: url(../images/overlay.png), url(../images/bg5.jpg);
-		background-size: cover, cover;
-		background-attachment: fixed, fixed;
-		background-position: bottom center, top;
-		background-repeat: repeat, no-repeat;
+		background: url(../images/bg5.jpg);
+		background-size:  cover;
+		background-attachment:  fixed;
+		background-position:  top;
+		background-repeat:  no-repeat;
         overflow-y : hidden;
     }
 
