@@ -246,11 +246,7 @@ section,
     padding-left: 20px;
     padding-right: 20px;
 	
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease;
+   
 }
 h1,h2,h4,h5,h6
 {
@@ -265,9 +261,7 @@ h1,h2,h4,h5,h6
 {
     color:#ffffff;
 }
-.navbar .nav > li > a:hover{
-	
-}
+
 
 .navbar .brand{
     color: #fff;
