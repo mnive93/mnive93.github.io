@@ -267,17 +267,9 @@ section,
 	
    
 }
-.navbar .nav > li > a:hover{
-    color: #bebebe;
-    text-shadow: none;
-    line-height: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-	
-   
-}
+
 h1,h2,h4,h5,h6
-{
+
     width: 100%;
     line-height: 1;
     color:#515151;
@@ -450,7 +442,7 @@ margin: 60px 0 30px;
 .research
 {
     background-color: #ffffff;
-    padding-bottom: 180px;
+    padding-bottom: 120px;
     padding-top: 50px; 
    
 
@@ -460,7 +452,59 @@ color: #515151;
 text-align: center;
 margin: 60px 0 30px;
 }
+/* Contact */
+.contact
+{
+    background-color: #ffffff;
+    padding-bottom: 80px;
+   
+   
 
+}
+.contact h2 {
+color: #515151;
+text-align: center;
+margin: 60px 0 30px;
+}
+.contact p
+{
+    font-size: 25px;
+    text-align:justify;
+    color:#587272;
+    display:block;
+    -moz-hyphens:auto; 
+    -webkit-hyphens:auto; 
+    -o-hyphens:auto; 
+    hyphens:auto; 
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+    padding-bottom: 30px;
+}
+#contactlist
+{
+     margin-left: 150px;
+}
+#contactlist  li  
+{
+ 
+    font-size: 15px;
+    color:#587272;
+    display: inline;
+    float: left;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+    padding-left: 100px;
+   
+}
+.contact i
+{
+    line-height: 30px;
+    margin-top: 20px;
+}
 
 /* Section 2 Style */
 
