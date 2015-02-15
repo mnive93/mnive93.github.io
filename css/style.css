@@ -6,10 +6,10 @@ body{
 }
 #intro
     {
-		background: url(../images/bg5.jpg);
+		background: url(../images/bg3.jpg);
 		background-size:  cover;
 		background-attachment:  fixed;
-		background-position:  top;
+		background-position:bottom;
 		background-repeat:  no-repeat;
         overflow-y : hidden;
     }
