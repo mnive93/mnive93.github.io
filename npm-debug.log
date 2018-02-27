@@ -1,0 +1,278 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/7.2.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@3.10.9
+3 info using node@v7.2.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData bootstrap
+20 silly mapToRegistry name bootstrap
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'bootstrap',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'bootstrap',
+23 silly mapToRegistry   name: 'bootstrap',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+25 silly fetchNamedPackageData devicons
+26 silly mapToRegistry name devicons
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'devicons',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'devicons',
+29 silly mapToRegistry   name: 'devicons',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/devicons
+31 silly fetchNamedPackageData jquery
+32 silly mapToRegistry name jquery
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'jquery',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   escapedName: 'jquery',
+35 silly mapToRegistry   name: 'jquery',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/jquery
+37 silly fetchNamedPackageData simple-line-icons
+38 silly mapToRegistry name simple-line-icons
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'simple-line-icons',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   escapedName: 'simple-line-icons',
+41 silly mapToRegistry   name: 'simple-line-icons',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/simple-line-icons
+43 verbose request uri https://registry.npmjs.org/devicons
+44 verbose request no auth needed
+45 info attempt registry request try #1 at 12:51:23 AM
+46 verbose request id 94c7fc015dfc882a
+47 http request GET https://registry.npmjs.org/devicons
+48 verbose request uri https://registry.npmjs.org/simple-line-icons
+49 verbose request no auth needed
+50 info attempt registry request try #1 at 12:51:23 AM
+51 http request GET https://registry.npmjs.org/simple-line-icons
+52 verbose request uri https://registry.npmjs.org/bootstrap
+53 verbose request no auth needed
+54 info attempt registry request try #1 at 12:51:23 AM
+55 verbose etag W/"59fae4dd-105a2"
+56 verbose lastModified Thu, 02 Nov 2017 09:26:53 GMT
+57 http request GET https://registry.npmjs.org/bootstrap
+58 verbose request uri https://registry.npmjs.org/jquery
+59 verbose request no auth needed
+60 info attempt registry request try #1 at 12:51:23 AM
+61 verbose etag "5a947365-17d53"
+62 verbose lastModified Mon, 26 Feb 2018 20:51:49 GMT
+63 http request GET https://registry.npmjs.org/jquery
+64 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+65 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+66 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+67 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+68 info attempt registry request try #2 at 12:51:48 AM
+69 verbose etag "5a947365-17d53"
+70 verbose lastModified Mon, 26 Feb 2018 20:51:49 GMT
+71 http request GET https://registry.npmjs.org/jquery
+72 info attempt registry request try #2 at 12:51:48 AM
+73 verbose etag W/"59fae4dd-105a2"
+74 verbose lastModified Thu, 02 Nov 2017 09:26:53 GMT
+75 http request GET https://registry.npmjs.org/bootstrap
+76 info attempt registry request try #2 at 12:51:48 AM
+77 http request GET https://registry.npmjs.org/simple-line-icons
+78 info attempt registry request try #2 at 12:51:48 AM
+79 http request GET https://registry.npmjs.org/devicons
+80 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+81 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+82 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+83 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+84 info attempt registry request try #3 at 12:52:48 AM
+85 verbose etag "5a947365-17d53"
+86 verbose lastModified Mon, 26 Feb 2018 20:51:49 GMT
+87 http request GET https://registry.npmjs.org/jquery
+88 info attempt registry request try #3 at 12:52:48 AM
+89 http request GET https://registry.npmjs.org/simple-line-icons
+90 info attempt registry request try #3 at 12:52:48 AM
+91 verbose etag W/"59fae4dd-105a2"
+92 verbose lastModified Thu, 02 Nov 2017 09:26:53 GMT
+93 http request GET https://registry.npmjs.org/bootstrap
+94 info attempt registry request try #3 at 12:52:48 AM
+95 http request GET https://registry.npmjs.org/devicons
+96 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+96 silly fetchPackageMetaData     at errnoException (dns.js:28:10)
+96 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+96 silly fetchPackageMetaData  error for devicons@^1.8.0 { Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+96 silly fetchPackageMetaData     at errnoException (dns.js:28:10)
+96 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+96 silly fetchPackageMetaData   code: 'ENOTFOUND',
+96 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+96 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+96 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+96 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+96 silly fetchPackageMetaData   port: 443 }
+97 silly get cb [ 304, undefined ]
+98 verbose etag https://registry.npmjs.org/bootstrap from cache
+99 verbose get saving bootstrap to /Users/nivedita/.npm/registry.npmjs.org/bootstrap/.cache.json
+100 verbose correctMkdir /Users/nivedita/.npm correctMkdir not in flight; initializing
+101 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+101 silly fetchPackageMetaData     at errnoException (dns.js:28:10)
+101 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+101 silly fetchPackageMetaData  error for simple-line-icons@^2.4.1 { Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+101 silly fetchPackageMetaData     at errnoException (dns.js:28:10)
+101 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+101 silly fetchPackageMetaData   code: 'ENOTFOUND',
+101 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+101 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+101 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+101 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+101 silly fetchPackageMetaData   port: 443 }
+102 silly get cb [ 304, undefined ]
+103 verbose etag https://registry.npmjs.org/jquery from cache
+104 verbose get saving jquery to /Users/nivedita/.npm/registry.npmjs.org/jquery/.cache.json
+105 verbose correctMkdir /Users/nivedita/.npm correctMkdir already in flight; waiting
+106 silly resolveWithNewModule jquery@3.3.1 checking installable status
+107 silly cache add args [ 'jquery@3.3.1', null ]
+108 verbose cache add spec jquery@3.3.1
+109 silly cache add parsed spec Result {
+109 silly cache add   raw: 'jquery@3.3.1',
+109 silly cache add   scope: null,
+109 silly cache add   escapedName: 'jquery',
+109 silly cache add   name: 'jquery',
+109 silly cache add   rawSpec: '3.3.1',
+109 silly cache add   spec: '3.3.1',
+109 silly cache add   type: 'version' }
+110 silly addNamed jquery@3.3.1
+111 verbose addNamed "3.3.1" is a plain semver version for jquery
+112 silly mapToRegistry name jquery
+113 silly mapToRegistry using default registry
+114 silly mapToRegistry registry https://registry.npmjs.org/
+115 silly mapToRegistry data Result {
+115 silly mapToRegistry   raw: 'jquery',
+115 silly mapToRegistry   scope: null,
+115 silly mapToRegistry   escapedName: 'jquery',
+115 silly mapToRegistry   name: 'jquery',
+115 silly mapToRegistry   rawSpec: '',
+115 silly mapToRegistry   spec: 'latest',
+115 silly mapToRegistry   type: 'tag' }
+116 silly mapToRegistry uri https://registry.npmjs.org/jquery
+117 verbose addNameVersion registry:https://registry.npmjs.org/jquery not in flight; fetching
+118 silly fetchNamedPackageData No valid target from cache, forcing network
+119 verbose request uri https://registry.npmjs.org/bootstrap
+120 verbose request no auth needed
+121 info attempt registry request try #1 at 12:53:03 AM
+122 http request GET https://registry.npmjs.org/bootstrap
+123 verbose get https://registry.npmjs.org/jquery not expired, no request
+124 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+125 silly mapToRegistry name jquery
+126 silly mapToRegistry using default registry
+127 silly mapToRegistry registry https://registry.npmjs.org/
+128 silly mapToRegistry data Result {
+128 silly mapToRegistry   raw: 'jquery',
+128 silly mapToRegistry   scope: null,
+128 silly mapToRegistry   escapedName: 'jquery',
+128 silly mapToRegistry   name: 'jquery',
+128 silly mapToRegistry   rawSpec: '',
+128 silly mapToRegistry   spec: 'latest',
+128 silly mapToRegistry   type: 'tag' }
+129 silly mapToRegistry uri https://registry.npmjs.org/jquery
+130 verbose addRemoteTarball https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz not in flight; adding
+131 verbose addRemoteTarball [ 'https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz',
+131 verbose addRemoteTarball   '958ce29e81c9790f31be7792df5d4d95fc57fbca' ]
+132 info retry fetch attempt 1 at 12:53:03 AM
+133 info attempt registry request try #1 at 12:53:03 AM
+134 http fetch GET https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz
+135 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+136 info attempt registry request try #2 at 12:53:13 AM
+137 http request GET https://registry.npmjs.org/bootstrap
+138 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+139 info attempt registry request try #2 at 12:53:13 AM
+140 http fetch GET https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz
+141 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+142 info attempt registry request try #3 at 12:54:13 AM
+143 http request GET https://registry.npmjs.org/bootstrap
+144 info attempt registry request try #3 at 12:54:13 AM
+145 http fetch GET https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz
+146 error fetch failed https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz
+147 warn retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+148 silly fetchPackageMetaData Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+148 silly fetchPackageMetaData     at errnoException (dns.js:28:10)
+148 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+148 silly fetchPackageMetaData  error for bootstrap@4.0.0 { Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+148 silly fetchPackageMetaData     at errnoException (dns.js:28:10)
+148 silly fetchPackageMetaData     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+148 silly fetchPackageMetaData   code: 'ENOTFOUND',
+148 silly fetchPackageMetaData   errno: 'ENOTFOUND',
+148 silly fetchPackageMetaData   syscall: 'getaddrinfo',
+148 silly fetchPackageMetaData   hostname: 'registry.npmjs.org',
+148 silly fetchPackageMetaData   host: 'registry.npmjs.org',
+148 silly fetchPackageMetaData   port: 443 }
+149 info retry fetch attempt 2 at 12:54:38 AM
+150 info attempt registry request try #1 at 12:54:38 AM
+151 http fetch GET https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz
+152 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+153 info attempt registry request try #2 at 12:54:48 AM
+154 http fetch GET https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz
+155 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+156 info attempt registry request try #3 at 12:55:48 AM
+157 http fetch GET https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz
+158 error fetch failed https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz
+159 warn retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+160 info retry fetch attempt 3 at 12:57:03 AM
+161 info attempt registry request try #1 at 12:57:03 AM
+162 http fetch GET https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz
+163 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+164 info attempt registry request try #2 at 12:57:28 AM
+165 http fetch GET https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz
+166 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+167 info attempt registry request try #3 at 12:58:28 AM
+168 http fetch GET https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz
+169 error fetch failed https://registry.npmjs.org/jquery/-/jquery-3.3.1.tgz
+170 silly rollbackFailedOptional Starting
+171 silly rollbackFailedOptional Finishing
+172 silly runTopLevelLifecycles Finishing
+173 silly install printInstalled
+174 verbose stack Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+174 verbose stack     at errnoException (dns.js:28:10)
+174 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+175 verbose cwd /Users/nivedita/startbootstrap-resume
+176 error Darwin 17.2.0
+177 error argv "/usr/local/Cellar/node/7.2.0/bin/node" "/usr/local/bin/npm" "install"
+178 error node v7.2.0
+179 error npm  v3.10.9
+180 error code ENOTFOUND
+181 error errno ENOTFOUND
+182 error syscall getaddrinfo
+183 error network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+184 error network This is most likely not a problem with npm itself
+184 error network and is related to network connectivity.
+184 error network In most cases you are behind a proxy or have bad network settings.
+184 error network
+184 error network If you are behind a proxy, please make sure that the
+184 error network 'proxy' config is set properly.  See: 'npm help config'
+185 verbose exit [ 1, true ]
